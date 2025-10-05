@@ -48,15 +48,18 @@ A full-stack web application to track your daily expenses easily. Keep track of 
    git clone https://github.com/your-username/expense_tracker.git
    cd Expense_Tracker
 
-2. Setup Backend
-   cd backend
-   npm install
-   # Create a .env file with:
-   # MONGO_URI=your_mongodb_connection_string
-   # PORT=5000
-   npm run dev
+ 
+2. **Setup Backend**
+   ```bash
+    cd backend
+    npm install
+    # Create a .env file with:
+    # MONGO_URI=your_mongodb_connection_string
+    # PORT=5000
+    npm run dev
 
-3.  Setup Frontend
+3.  **Setup frontend**
+   ```bash
     cd ../frontend
     npm install
     npm start
