@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+   /* border thickness stays 3px */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px; /* container width limit */
+  display: flex;
+  flex-direction: column;
+
+  /* key changes */
+  height: auto;        /* container height adjusts to content */
+  min-height: 10px;       /* remove any minimum height */
+  box-sizing: border-box; /* ensures padding is included inside border */
+}
+
+.navbtn {
+  background-color: green;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.ftbtn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+rpbtn {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
